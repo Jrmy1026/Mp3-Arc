@@ -1,5 +1,6 @@
 import { Outlet, Navigate, Link } from "react-router-dom";
 import Typed from "react-typed";
+import '../sub.css';
 import {
     FaDribbbleSquare,
     FaFacebookSquare,
@@ -92,7 +93,7 @@ export default function Dashboard() {
                             or translator.
                         </p>
                         {/* need to hover */}
-                        <button className="bg-black text-amber-500 w-[200px] rounded-md my-6 mx-auto md:mx-0 py-3 font-bold">
+                        <button className="glow w-[200px] rounded-md my-6 mx-auto md:mx-0 py-3 font-bold">
                             Get Started
                         </button>
                     </div>
@@ -119,7 +120,7 @@ export default function Dashboard() {
                                     placeholder="Enter Email"
                                 />
                                 {/* need to edit */}
-                                <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 py-3 flex">
+                                <button className="glow w-[200px] rounded-md font-medium my-6 ml-4 px-6 py-3 flex">
                                     Subscribe!
                                 </button>
                             </form>
@@ -154,7 +155,7 @@ export default function Dashboard() {
                                     available
                                 </p>
                                 {/* need to edit */}
-                                <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 mx-auto py-3 text-center mt-20">
+                                <button className="glow w-[200px] rounded-md my-6 mx-auto md:mx-0 py-3 font-bold">
                                     Get Started
                                 </button>
                                 <p className="mx-8">
@@ -194,7 +195,7 @@ export default function Dashboard() {
                                     services
                                 </p>
                                 {/* need to edit */}
-                                <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 mx-auto py-3 text-center">
+                                <button className="glow w-[200px] rounded-md my-6 mx-auto md:mx-0 py-3 font-bold">
                                     Get Started
                                 </button>
                                 <p className="mx-8 text-sm">
@@ -242,7 +243,7 @@ export default function Dashboard() {
                                     graphic designers
                                 </p>
                                 {/* need to edit */}
-                                <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 mx-auto py-3 mt-20 text-center">
+                                <button className="glow w-[200px] rounded-md my-6 mx-auto md:mx-0 py-3 font-bold">
                                     Get Started
                                 </button>
                                 <p className="mx-8">
@@ -300,7 +301,7 @@ export default function Dashboard() {
                                     </span>
                                     (coming soon) plan
                                 </p>
-                                <button className="bg-amber-500 text-black w-[200px] rounded-md font-medium my-6 ml-4 px-6 mx-auto py-3 text-center">
+                                <button className="glow w-[200px] rounded-md my-6 mx-auto md:mx-0 py-3 font-bold">
                                     Get Started
                                 </button>
                                 <p className="mx-8">
@@ -380,7 +381,7 @@ export default function Dashboard() {
                                     name="message"
                                 />
                             </div>
-                            <button className="bg-amber-500 text-black mt-4 w-full p-4 rounded">
+                            <button className="glow mt-4 w-full p-4 rounded">
                                 Send Message
                             </button>
                         </form>
@@ -446,7 +447,7 @@ export default function Dashboard() {
                                     name="message"
                                 />
                             </div>
-                            <button className="bg-amber-500 text-black mt-4 w-full p-4 rounded">
+                            <button className="glow mt-4 w-full p-4 rounded">
                                 Send Message
                             </button>
                         </form>
@@ -489,7 +490,7 @@ export default function Dashboard() {
                             </ul>
                         </div>
                         <div>
-                            <h6 className="font-medium">COMMUNITIES</h6>
+                            <h6 className="font-medium">COMMUNITIES</h6>``
                             <ul>
                                 <li className="py-2 text-sm">For Artists</li>
                                 <li className="py-2 text-sm">Developers</li>
