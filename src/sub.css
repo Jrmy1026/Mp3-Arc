@@ -16,26 +16,11 @@
     }
     .glow:hover{
         @apply text-black bg-[#f59e0b] boxshadow
-    }
-    /* .hidden:hover{
-        @apply text-black bg-[#f59e0b] boxshadow
-    } */
-    /* .box::before{
-        @apply content-[''] absolute
-        bg-[conic-gradient
-        (#04b0ee_20deg,
-        transparent_120deg)] w-[300px]
-        h-[300px] top-[-25%] left-
-        [-25%] animate-fullSpin
-    }
-    .box::after{
-        @apply content-['tailwind']
-        text-white w-[94] h-[94%]
-        absolute top-[3%]
-        left-[3%] flex justify-center
-        items-center uppercase
-        tracking-[2px] font-medium
-    } */
+    } 
+    .glowlink:hover{
+        @apply text-white bg-[#f59e0b] boxshadow
+    } 
+   
     
     }
     

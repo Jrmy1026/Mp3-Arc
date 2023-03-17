@@ -26,15 +26,15 @@ export default function Navbar() {
           <li className='p-4'>
             <a href='#plans'>Plans</a>
           </li>
-          <li className='p-4'>
-            <Link to='/download-app'>Download</Link>
+          <li className=' p-4'>
+            <Link className='glowlink' to='/download-app'>Download</Link>
           </li>
           <li className='p-4'>
             <a href='#contact'>Contact</a>
           </li>
           <li>
-            <button className='bg-amber-500 text-black rounded w-[120px] h-[50px] font-bold'>
-              <Link to='/login'>Sign In</Link>
+          <button className='bg-amber-500 text-white rounded w-[120px] h-[50px] font-bold'>
+              <Link className='glowlink' to='/login'>Sign In</Link>
             </button>
           </li>
         </ul>
