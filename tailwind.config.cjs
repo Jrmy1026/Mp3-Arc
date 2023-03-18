@@ -42,15 +42,15 @@ module.exports = {
     },
   },
   plugins: [],
-  // keyframes:{
-  //   fullSpin:{
-  //       '100%' : {
-  //        transform:'rotate (-360deg)'
-  //       }
-  // }
-  // },
-  // animation:{
-  // fullSpin:'fullSpin 3s linear infinite'
-  // } 
+  keyframes:{
+    fullSpin:{
+        '100%' : {
+         transform:'rotate (-360deg)'
+        }
+  }
+  },
+  animation:{
+  fullSpin:'fullSpin 3s linear infinite'
+  } 
 }
 
